@@ -10,6 +10,7 @@
 
 h1 {
   font-weight: 600;
+  font-size: 2.2rem;
 }
 
 h1,
@@ -33,12 +34,12 @@ iframe {
 .content-container {
   margin: auto;
   max-width: 740px;
-  padding: 100px 2% 100px 2%;
+  padding: 60px 2% 100px 2%;
   text-align: center;
 }
 
 a {
-  color: #7854b3;
+  color: #888;
 }
 
 .navbar {
@@ -71,4 +72,9 @@ a {
 
 .text-container p {
   margin-bottom: 24px;
+}
+
+.header-number {
+    color: #b5b5b5;
+    font-size: 8rem;
 }
