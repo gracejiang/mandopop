@@ -21,10 +21,8 @@ p {
 }
 
 iframe {
-    margin-top: 20px;
     border-radius: 10px;
     border: 1px solid #ccc;
-    height: 300px;
 }
 
 .content-container {
@@ -32,13 +30,6 @@ iframe {
     max-width: 740px;
     padding: 100px 2% 100px 2%;
     text-align: center;
-}
-
-.half-container {
-    width: 40%;
-    display: inline-block;
-    vertical-align: top;
-    margin-right: 10px;
 }
 
 a {

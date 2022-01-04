@@ -7,3 +7,28 @@
 .example-box {
     margin-top: 30px;
 }
+
+.example-lyrics {
+    margin-top: 24px;
+}
+
+.example-video {
+    margin-top: 24px;
+}
+
+
+.half-container {
+    text-align: left;
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+}
+
+/* MOBILE VIEW */
+@media (max-width: 520px) {
+    .half-container {
+      width: 100%;
+    }
+}
+
