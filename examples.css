@@ -7,6 +7,11 @@
 .example-box {
   margin-top: 30px;
 }
+.example-description {
+    margin-bottom: 42px;
+    /* font-style: italic; */
+    font-size: 0.9rem;
+}
 
 .example-lyrics {
   margin-top: 24px;
@@ -14,6 +19,7 @@
 
 .example-video {
   margin-top: 24px;
+  margin-bottom: 24px;
 }
 
 .half-container {

@@ -16,8 +16,9 @@ h1,
 ul,
 div,
 p,
+h2,
 iframe {
-  margin-bottom: 12px;
+  margin-bottom: 8px;
 }
 
 p {
@@ -69,5 +70,5 @@ a {
 }
 
 .text-container p {
-  margin-bottom: 20px;
+  margin-bottom: 24px;
 }
