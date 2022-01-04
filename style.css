@@ -34,7 +34,7 @@ iframe {
 .content-container {
   margin: auto;
   max-width: 740px;
-  padding: 60px 2% 110px 2%;
+  padding: 60px 2% 20px 2%;
   text-align: center;
 }
 
@@ -94,4 +94,15 @@ a:hover {
 
 .next-btn {
   float: right;
+}
+
+
+footer {
+  padding: 60px 2% 40px 2%;
+  text-align: center;
+  color: #888;
+}
+
+footer a {
+  text-decoration: none;
 }
