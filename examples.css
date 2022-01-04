@@ -1,34 +1,32 @@
 #example-selector {
-    margin-top: 20px;
-    padding: 10px 20px 10px 20px;
-    font-size: 1rem;
+  margin-top: 20px;
+  padding: 10px 20px 10px 20px;
+  font-size: 1rem;
 }
 
 .example-box {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
 .example-lyrics {
-    margin-top: 24px;
+  margin-top: 24px;
 }
 
 .example-video {
-    margin-top: 24px;
+  margin-top: 24px;
 }
 
-
 .half-container {
-    text-align: left;
-    width: 45%;
-    display: inline-block;
-    vertical-align: top;
-    margin-right: 10px;
+  text-align: left;
+  width: 45%;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 10px;
 }
 
 /* MOBILE VIEW */
 @media (max-width: 520px) {
-    .half-container {
-      width: 100%;
-    }
+  .half-container {
+    width: 100%;
+  }
 }
-
