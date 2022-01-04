@@ -20,6 +20,13 @@ p {
     line-height: 110%;
 }
 
+iframe {
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    height: 300px;
+}
+
 .content-container {
     margin: auto;
     max-width: 740px;

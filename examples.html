@@ -1,46 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-<title>Examples | EALC 025</title>
-<style>
-    .box{
-        color: #fff;
-        padding: 20px;
-        display: none;
-        margin-top: 20px;
-    }
-    .red{ background: #ff0000; }
-    .green{ background: #228B22; }
-    .blue{ background: #0000ff; }
-</style>
-<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-<script>
-$(document).ready(function(){
-    $("select").change(function(){
-        $(this).find("option:selected").each(function(){
-            var optionValue = $(this).attr("value");
-            if(optionValue){
-                $(".box").not("." + optionValue).hide();
-                $("." + optionValue).show();
-            } else{
-                $(".box").hide();
-            }
+    <title>Examples | EALC 025</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./examples.css">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("select").change(function () {
+                $(this).find("option:selected").each(function () {
+                    var optionValue = $(this).attr("value");
+                    if (optionValue) {
+                        $(".example-box").not("." + optionValue).hide();
+                        $("." + optionValue).show();
+                    } else {
+                        $(".example-box").hide();
+                    }
+                });
+            }).change();
         });
-    }).change();
-});
-</script>
+    </script>
 </head>
+
 <body>
-    <div>
-        <select>
-            <option>Choose Color</option>
-            <option value="red">Red</option>
-            <option value="green">Green</option>
-            <option value="blue">Blue</option>
+    <div class="content-container">
+        <h1>Examples</h1>
+        <p>This site is a work in progress!</p>
+        <ul class="navbar">
+            <li><a href="index.html">Overview</a></li>
+            <li><a href="themes.html">Mandopop Themes</a></li>
+            <li><a href="gender.html">Construction of Gender</a></li>
+            <li><a href="examples.html">Examples</a></li>
+        </ul>
+        <select id="example-selector">
+            <option value="wind">為你我受冷風吹</option>
         </select>
+        <div class="wind example-box">
+            <h2>為你我受冷風吹</h2>
+
+            </div>
+        </div>
     </div>
-    <div class="red box">You have selected <strong>red option</strong> so i am here</div>
-    <div class="green box">You have selected <strong>green option</strong> so i am here</div>
-    <div class="blue box">You have selected <strong>blue option</strong> so i am here</div>
+
 </body>
+
 </html>
