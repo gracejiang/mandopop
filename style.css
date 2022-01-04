@@ -34,12 +34,16 @@ iframe {
 .content-container {
   margin: auto;
   max-width: 740px;
-  padding: 60px 2% 100px 2%;
+  padding: 60px 2% 110px 2%;
   text-align: center;
 }
 
 a {
   color: #888;
+}
+
+a:hover {
+  color: black;
 }
 
 .navbar {
@@ -75,6 +79,19 @@ a {
 }
 
 .header-number {
-    color: #b5b5b5;
-    font-size: 8rem;
+  color: #b5b5b5;
+  font-size: 8rem;
+}
+
+.page-navigation {
+  margin-top: 50px;
+  /* text-transform: lowercase; */
+}
+
+.back-btn {
+  float: left;
+}
+
+.next-btn {
+  float: right;
 }
