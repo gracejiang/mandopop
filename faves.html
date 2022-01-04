@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Faves | Mandopop</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./examples.css" />
+    <link rel="icon" href="./img/favicon.png" />
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("select")
+          .change(function () {
+            $(this)
+              .find("option:selected")
+              .each(function () {
+                var optionValue = $(this).attr("value");
+                if (optionValue) {
+                  $(".example-box")
+                    .not("." + optionValue)
+                    .hide();
+                  $("." + optionValue).show();
+                } else {
+                  $(".example-box").hide();
+                }
+              });
+          })
+          .change();
+      });
+    </script>
+  </head>
+
+  <body>
+    <div class="content-container">
+      <h1 class="header-number">05</h1>
+      <h1>Bonus: Personal Favorites :D</h1>
+      <ul class="navbar">
+        <li><a href="index.html">01. Overview</a></li>
+        <li><a href="themes.html">02. Themes</a></li>
+        <li><a href="gender.html">03. Gender</a></li>
+        <li><a href="examples.html">04. Examples</a></li>
+        <li><a href="faves.html">05. Bonus</a></li>
+      </ul>
+
+      <select id="example-selector">
+        <option value="fave">B.O.</option>
+        <option value="mandobops">Mandobops</option>
+        <option value="classics">Classics</option>
+      </select>
+
+      <div class="fave example-box">
+        <div>
+          <h2>&nbsp;B.O.</h2>
+          <p><em>By ØZI</em></p>
+        </div>
+        <div class="example-video">
+          <iframe
+            src="https://open.spotify.com/embed/track/2LoGv4HSbilp1SVoQ10Qw6?utm_source=generator"
+            width="100%"
+            height="240"
+            frameborder="0"
+            allowfullscreen=""
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+          ></iframe>
+        </div>
+        <div class="example-description">
+          <p>ty chris for showing me this song :D</p>
+        </div>
+        <div class="example-lyrics">
+          <h3>LYRICS</h3>
+          <br /><br />
+          <div class="half-container">
+            <p>
+              Cruising down the streets in my 6-4<br />
+              I'm about to get lit with my 6 hoes<br />
+              I mean 6 bros<br />
+              But haha probably both, I mean god knows<br />
+              Who we're gonna see in the clubs tonight<br />
+              我穿梭這城市的neon-lights<br />
+              有莫名的預感<br />
+              今晚我又要醉了到底怎麼辦<br />
+              想不到 該去哪裡pregame<br />
+              我不要, 那裡一堆瞎妹<br />
+              想領桌 但還沒12點<br />
+              Let's just Suntory and tea隨便<br />
+              Oh I don't care<br />
+              Where we go<br />
+              因為 I know...<br /><br />
+              就這樣一起 B.O. tonight<br />
+              讓我們一起 B.O. tonight<br />
+              We about to B.O., B.O.<br />
+              We about to B.O., B.O.<br /><br />
+              就這樣一起 B.O. tonight<br />
+              讓我們一起 B.O. tonight<br />
+              We about to B.O., B.O.<br />
+              We about to B.O., B.O.<br /><br />
+              The liquid flows into my body<br />
+              連續喝了 三杯shot of whiskey<br />
+              還比不上旁邊的Fanny<br />
+              她喝個vodka都不加cranberry juice.<br />
+              說到Fanny 剛剛坐在她旁邊的女孩<br />
+              她好可愛 是我的菜<br />
+              Dat ass so nice<br />
+              I love her laugh<br />
+              She looked at me like 坐過來<br />
+              I'm frickin down for that, so I<br />
+              慢慢的穿過人群走到她的身邊<br />
+              她一邊看著我還一邊不停放電<br />
+              Im loving the vibe of the night<br />
+              And for that<br /><br />
+            </p>
+          </div>
+
+          <div class="half-container">
+            <p>
+              就這樣一起 B.O. tonight<br />
+              讓我們一起 B.O. tonight<br />
+              We might as well just B.O.B.O.<br />
+              We might as well just B.O.B.O.<br /><br />
+              就這樣一起 B.O. tonight<br />
+              讓我們一起 B.O. tonight<br />
+              We might as well just B.O.B.O.<br />
+              We might as well just B.O.B.O.<br /><br />
+              I'm always like a party poop<br />
+              Look at people, what they tryna prove<br />
+              Til the moment I see you<br />
+              我已知道what I wanna do<br />
+              Think, Im B.O. with you, a little bit<br />
+              Chill with you, a little bit<br />
+              Boi don't kill my vibe with it<br />
+              How about we make a deal?<br />
+              我們可以跳舞跳到天亮<br />
+              可以什麼都不用想<br />
+              Live in this moment 不必假裝<br />
+              Let's go with the flow tonight<br />
+              Only me and you, and you, and you<br />
+              Yes, I think you know what to do<br /><br />
+              就這樣一起 B.O. tonight<br />
+              讓我們一起 B.O. tonight<br />
+              We about to B.O., B.O.<br />
+              We about to B.O., B.O.<br /><br />
+              就這樣一起 B.O. tonight<br />
+              讓我們一起 B.O. tonight<br />
+              We might as well just B.O.B.O.<br />
+              We might as well just B.O.B.O.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="mandobops example-box">
+        <div>
+          <h2>Mandobops</h2>
+        </div>
+        <div class="example-video">
+          <iframe
+            src="https://open.spotify.com/embed/playlist/00CnKqc2wCK7AZPJ9S5a7O?utm_source=generator"
+            width="100%"
+            height="380"
+            frameborder="0"
+            allowfullscreen=""
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+          ></iframe>
+        </div>
+      </div>
+
+      <div class="classics example-box">
+        <div>
+          <h2>Classics</h2>
+        </div>
+        <div class="example-video">
+          <iframe
+            src="https://open.spotify.com/embed/playlist/59INoTfN9Q4h19rfTgovGh?utm_source=generator"
+            width="100%"
+            height="380"
+            frameborder="0"
+            allowfullscreen=""
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+          ></iframe>
+        </div>
+      </div>
+
+      <div class="page-navigation">
+        <div class="back-btn"><a href="examples.html">&larr; Back</a></div>
+        <div class="next-btn"></div>
+      </div>
+    </div>
+  </body>
+</html>
